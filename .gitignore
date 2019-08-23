@@ -1,6 +1,7 @@
 *.pem
 *.crx
 Source.zip
+*.iml
 
 # OS generated files #
 ######################
