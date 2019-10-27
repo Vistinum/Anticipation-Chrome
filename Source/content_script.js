@@ -101,6 +101,6 @@ function hideTimes(){
 		}
 
 		// Custom
-		document.querySelectorAll(".player-seek, .preview-card-overlay, .preview-card-thumbnail__image").forEach(e => e.style.display='none');
+		document.querySelectorAll(".player-seek, .preview-card-overlay, .preview-card-thumbnail__image player-controls").forEach(e => e.style.display='none');
 	}
 }
