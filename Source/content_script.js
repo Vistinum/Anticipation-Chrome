@@ -101,7 +101,7 @@ function hideTimes(){
 		}
 
 		// Custom
-		document.querySelectorAll(".player-seek, .preview-card-overlay, .preview-card-thumbnail__image, .player-controls")
+		document.querySelectorAll(".player-seek, .preview-card-overlay, .preview-card-thumbnail__image, .vod-seekbar-time-labels, .seekbar-interaction-area")
 			.forEach(e => {e.style.display = 'none'; e.style.opacity = '0';});
 	}
 }
